@@ -1,0 +1,23 @@
+{
+  "name": "judyann-portfolio",
+  "version": "1.0.0",
+  "description": "Judyann's Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["portfolio", "javascript", "supabase", "vercel"],
+  "author": "Judyann",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "aos": "^2.3.4",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+} 
